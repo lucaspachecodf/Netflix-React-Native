@@ -27,7 +27,7 @@ const Header = () => {
 			<Logo resizeMode='contain' source={require('../assets/logo.png')} />
 			<Menu>Séries</Menu>
 			<Menu>Filmes</Menu>
-			<Menu>Minha lista</Menu>
+			<Menu>Minha Lista</Menu>
 		</Container>
 	)
 }
