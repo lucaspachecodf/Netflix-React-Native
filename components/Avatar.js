@@ -1,6 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
-//import {MaterialIcons} from '@expo/vector-icons';
+//
 import Icon from 'react-native-vector-icons/MaterialIcons'
 Icon.loadFont();
 import styled, {css} from 'styled-components/native';
