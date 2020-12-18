@@ -1,8 +1,5 @@
 import React from 'react'
-
 import styled from 'styled-components/native'
-
-// import { Feather, Ionicons } from '@expo/vector-icons'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 Icon.loadFont();
 
@@ -81,20 +78,17 @@ const Hero = () => {
 				<MenuTag>Empolgantes</MenuTag>
 			</Tags>
 			<MenuHero>
-				<Button>
-					{/* <Feather name='plus' size={26} color='#FFF' /> */}
+				<Button>					
 					<Icon name="add" size={22} color='#FFF' />
 					<TextButton>Minha lista</TextButton>
 				</Button>
 
-				<Play>
-					{/* <Ionicons name='ios-play' size={26} /> */}
+				<Play>					
 					<Icon name="play-arrow" size={22} color='black' />
 					<TextButtonPlay>Assistir</TextButtonPlay>
 				</Play>
 
-				<Button>
-					{/* <Feather name='info' size={22} color='#FFF' /> */}
+				<Button>					
 					<Icon name="info" size={22} color='#FFF' />
 					<TextButton>Saiba mais</TextButton>
 				</Button>
