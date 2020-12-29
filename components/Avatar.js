@@ -45,7 +45,7 @@ const Editable = (props) => {
   return props.edit ? (
     <OverlayContainer big={props.big}>
       <Overlay big={props.big} />
-      { <Icon name="create" size={24} color="white" /> /* <MaterialIcons name="edit" size={24} color="white" /> */}
+      { <Icon name="create" size={24} color="white" /> }
     </OverlayContainer>
   ) : null;
 };
